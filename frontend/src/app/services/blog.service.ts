@@ -9,7 +9,7 @@ import { IBlog } from "../models/blog";
 })
 export class BlogService {
 
-  private url = "http://localhost:3000/";
+  private url = "https://blog-backend-bejg.onrender.com/";
   public urls = {
     getBlogs: this.url + 'blog',
     getBlogsByUser: this.url + 'blog/get/user/',
